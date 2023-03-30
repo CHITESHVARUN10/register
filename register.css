@@ -1,0 +1,128 @@
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmK_aP_OLrRHFqWfEeDhyrY3d6md1eki_U_g&usqp=CAU");
+    image-rendering: optimizeQuality;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  html {
+    box-sizing: border-box;
+    font-family: "Open sans", sans-serif;
+  }
+  .bg {
+    background-color: white;
+    width: 500px;
+    height: 800px;
+    border-radius: 20px;
+  }
+  h2 {
+    text-align: center;
+    font-size: 45px;
+    padding-top: 50px;
+  }
+  form {
+    margin-top: 100px;
+    margin-left: 100px;
+  }
+  span {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
+  #username {
+    font-size: large;
+    border: none;
+    border-bottom: 2px solid black;
+    padding-right: 90px;
+    transition: all 200ms;
+    transition-delay: border 1s;
+  }
+  #username:hover {
+    border: 1px solid;
+    border-radius: 20px;
+    transform: translatey(-0.2em);
+    box-shadow: 2px 0.5px 10px rgba(245, 245, 245, 0.552);
+    cursor: pointer;
+  }
+  #password {
+    font-size: large;
+    border: none;
+    border-bottom: 2px solid black;
+    padding-right: 90px;
+    transition: all 200ms;
+    transition-delay: border 1s;
+  }
+  #password:hover {
+    border: 1px solid;
+    border-radius: 20px;
+    transform: translatey(-0.2em);
+    box-shadow: 2px 0.5px 10px rgba(245, 245, 245, 0.552);
+    cursor: pointer;
+  }
+  #email {
+    font-size: large;
+    border: none;
+    border-bottom: 2px solid black;
+    padding-right: 90px;
+    transition: all 200ms;
+    transition-delay: border 1s;
+  }
+  #email:hover {
+    border: 1px solid;
+    border-radius: 20px;
+    transform: translatey(-0.2em);
+    box-shadow: 2px 0.5px 10px rgba(245, 245, 245, 0.552);
+    cursor: pointer;
+  }
+  #tel {
+    font-size: large;
+    border: none;
+    border-bottom: 2px solid black;
+    padding-right: 90px;
+    transition: all 200ms;
+    transition-delay: border 1s;
+  }
+  #tel:hover {
+    border: 1px solid;
+    border-radius: 20px;
+    transform: translatey(-0.2em);
+    box-shadow: 2px 0.5px 10px rgba(245, 245, 245, 0.552);
+    cursor: pointer;
+  }
+  button {
+    border-radius: 20px;
+    margin-top: 25px;
+    font-size: large;
+    font-weight: 600px;
+    padding: 5px 130px;
+    color: white;
+    background-color: black;
+    transition: all 200ms;
+    transition-delay: border 1s;
+    font-family: "Open sans", sans-serif;
+  }
+  button:hover {
+    color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmK_aP_OLrRHFqWfEeDhyrY3d6md1eki_U_g&usqp=CAU");
+    transform: translatey(-0.2em);
+    box-shadow: 2px 0.5px 10px rgba(245, 245, 245, 0.552);
+  }
+  ::placeholder{
+    font-size: 16px;
+}
+
+  .alert{
+    width: 100%;
+    background: rgb(0, 255, 106);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+    
+}
